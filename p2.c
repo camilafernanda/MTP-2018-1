@@ -6,7 +6,7 @@ void bidec()
 	char n[256], pn[256];
 	int i=0, j, x=0, y=1, dec=0;
 	printf("\nDigite o numero binario: ");
-			scanf("%s", &n);
+			scanf("%s", n);
 			getchar();
 			while(n[i] != '\0'){
 				i++;
@@ -31,7 +31,7 @@ void bihex()
    char bin[100]; 
    int i, j=0, x=1, k, y, n_conv=0, n[100];
    printf("\nDigite o numero binario: ");
-   scanf("%s", &bin);
+   scanf("%s", bin);
    getchar();
    for(i = 0; bin[i] != '\0'; i++);
     i--;
@@ -57,7 +57,7 @@ void hexdec()
    char num[256], inum[256];
    int dec=0, i=0, j=0, y=0, x=1;
    printf("\nDigite o numero hexadecimal: ");
-   scanf("%s", &num);
+   scanf("%s", num);
    getchar();
    while(num[i] != '\0'){
      i++;
@@ -202,7 +202,7 @@ void octdec()
    char num[256], inum[256];
    int i=0, j, y=0, x=1, dec=0;
    printf("\nDigite o numero octal: ");
-   scanf("%s", &num);
+   scanf("%s", num);
    getchar();
    while(num[i] != '\0'){
     i++;
