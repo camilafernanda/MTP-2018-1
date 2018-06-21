@@ -2,14 +2,14 @@
 
 #include <stdio.h>
 
-int arg1(num1)
+int arg1( int num1)
 {
 	printf("\nDigite um numero inteiro: ");
 	scanf("%d", &num1);
 	return num1;
 }
 
-int arg2(num2)
+int arg2( int num2)
 {
 	printf("\nDigite outro numero inteiro: ");
 	scanf("%d", &num2);
