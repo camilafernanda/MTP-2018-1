@@ -1,4 +1,4 @@
-//Aluna: Camila Fernanda Machado Alves Matrícula: 11721EBI016
+//Aluna: Camila Fernanda Machado Alves MatrÃ­cula: 11721EBI016
 
 #include <stdio.h>
 
@@ -38,7 +38,7 @@ int main()
 	 			getchar();
 				txt[i] = j;
 				i++;
-			}while(cont != 0);
+			}while(j!= 0);
 			pn=(char*)&txt;
 			printf("\nFrase descriptografada: \n");
 			for(i=0; i<sizeof(txt) && *(pn+i) != 0; i++)
