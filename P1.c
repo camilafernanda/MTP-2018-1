@@ -7,7 +7,7 @@ int main ()
     int est=0, i, r=0;
     char bits[256];
     printf("Digite uma sequencia numerica de 1 e 0 (numero binario): ");
-    scanf("%s", &bits);
+    scanf("%s", bits);
     for(i=0; bits[i]!='\0'; i++)
     {
          if(est==0&&bits[i]=='0')
