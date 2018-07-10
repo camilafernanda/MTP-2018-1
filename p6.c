@@ -11,24 +11,20 @@ float media(int soma, float cont)
 
 int soma_vet(int vet[20], int nt) 
 {
-   if(nt!=0) 
-   {
-        int sm;
-        sm = soma_vet (vet, nt-1);
-        if (vet[nt-1] > 0) 
-        {
-        	sm=sm+vet[nt-1];
-		}
-        return(sm);
+	if(nt==0)
+	{
+		return 0;
 	}
 	else
-	return 0;
+	{
+		return (vet[nt-1] + soma_vet(vet,nt-1));
+	}
 } 
 
 int main()
 {
 	int i, num[20], soma, nt;
-	float cont;
+	float cont = 0.0f;
 	for(i=0; i<20; i++)
 	{
 		num[i]=0;
