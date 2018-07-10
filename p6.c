@@ -29,7 +29,7 @@ int main()
 	{
 		num[i]=0;
 	}
-	printf("\nDigite o numero de termos (de 5 a 20): ");
+	printf("\nDigite o numero de termos: ");
 	scanf("%d", &nt);
 	printf("\nAgora digite os numeros: ");
 	for(i=0; i<nt; i++)
